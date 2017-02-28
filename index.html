@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head><style type="text/css">.lw { font-size: 60px; }</style>
+
+
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+	padding: 0;
+}
+			
+.nav ul a {
+	text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+  <h1>Free quiz, No Virus!!</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="#">Quizz/Game is</a></li>
+  <li><a href="#">totally</a></li>
+  <li><a href="#">Secure!</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1>NO POPUPS</h1>
+  <p>Feel free to play the quiz cause' it has no popups at all!So play now or else!
+!</p>
+  <p>To Play the game you first have to get and install the viruses, download below.To install the game, get the viruses.To stop the game, well you can't. And by the time you finish reading this you already got the viruses .So sad :-(, lol.</p>
+
+  
+  <p><strong>LXXXIV!</strong></p>
+  
+ <form method="get" action="source (4).html">
+<button type="submit">Download!</button>
+</form>
+  
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+   <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+  
+</article>
+
+<footer>Copyright © Viruses!</footer>
+</div>
+
+
+
+<script>
+  
+
+ alert("The pop ups shown are harmless and will do nothing to your computer.They will stop once you finish the game. Also,make sure you DO NOT CLICK CANCEL OR PREVENT THIS PAGE FROM CREATING DIALOG");
+ var playeName = prompt("What is your name" );
+ alert("Hi " + playeName + " Welcome to The  fake virus by Paul Sanchez.");
+  
+alert(playeName + " I have found that you have been searching the web  for FSA Writing Quizzes! Bua ha ha, Then You shall get YOURS!!!:D")
+    
+ var popup = prompt("First Question! What should you do first when you get your test?! Do you ANALYSE THE PROMPT, READ THE ARTICLE, or SIT DOWN AND SLEEP ?").toUpperCase();
+
+switch(popup) {
+  case 'ANALYSE THE PROMPT':
+    var intro = prompt("How smart! Next QUESTION!!!! What Should you have in the INTRODUCTION! (THESIS or FIRST NAME)?").toUpperCase();
+        
+    if (intro === 'THESIS') {
+        alert("Nice Job " + playeName);
+    }    
+    else {
+        alert("You Got it Wrong!!!");
+    }    
+        
+    var check = prompt("What should you check for before you turn in your writing? (CAPITALS AND PUNCTUATIONS, or NOTHING)?").toUpperCase();
+    
+    if (check === 'CAPITALS AND PUNCTUATIONS') {
+        alert("Nice Job" + playeName);
+    }    
+    
+    if(intro === 'FIRST NAME' || check === 'CAPITALS AND PUNCTUATIONS') {
+      alert("You Lost " + playeName + " , you did not gem all of them right!");
+    } else {
+      alert("Nice Job! You Have Won!");
+    }
+        
+    if(intro === 'FIRST NAME' || check === 'NOTHING') {
+      alert("Too bad.." + playeName + " , you are probably gonna fail the FSA!");
+    } else {
+      alert("Nice Job! You Have Won!");
+    }
+    break;
+        
+  case 'READ THE ARTICLE':
+    alert("READ THE ARTICLE!.. REALLY? BTW, YOU GOT IT WRONG!!!");
+    var clik = prompt("Moving on! How can you improve your FSA WRITING TEST GRADE/SCORE be better? By adding WHAT? ( ELABORATION AND EVIDENCE, or TYPOS)?").toUpperCase();
+		 
+        if ( clik === 'ELABORATION AND EVIDENCE') {
+            alert("Good Job");
+        }
+        else {
+            alert("Wrong!!!");
+        }
+        
+    var exit = prompt("Which DOES NOT go in the concluding paragraph? (COUNTERCLAIM or RESTATE MAINIDEA)?").toUpperCase();
+        
+    if(clik === 'ELABORATION AND EVIDENCE' || exit === 'RESTATE MAINIDEA') {
+      alert(playeName + ", you did not gem all of them right!");
+    } else {
+      alert("Nice Job! You Have Won!");
+    }
+        
+    if(clik === 'TYPOS' && exit === 'RESTATE MAINIDEA') {
+	    alert(playeName+"YOU LOST!");
+    } else {
+      alert("smart decision" + playeName);
+	    alert("You won!");
+    }
+    break;
+  case 'SIT DOWN AND SLEEP':
+    var phone = prompt("Are You Really sirious?! (YES or NO)?").toUpperCase();
+    var call = prompt("Are You Sure?!").toUpperCase();
+        
+    if(phone === 'YES' || call === 'YES') {
+      alert("Nothing!!!! Thats the Grade you are getting get if you don't start studying!");
+    } else {
+      alert("Refresh the web site and start again :(. (that is what happens when you do not think of your choices)");
+    }
+    break;
+  default:
+    prompt("I didn't understand your choice. Try again or your computer will get infected, this time picking ANALYSE THE PROMPT, READ THE ARTICLE, or SIT DOWN AND SLEEP!");
+}</script><script type="text/javascript" src="js/script.js"></script>
+</body>
